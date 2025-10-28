@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Find the limit of (x^2 - 4)/(x - 2) as x approaches 2",
+    "solution": "Step 1: Notice this is an indeterminate form 0/0, so we can use L'Hôpital's rule or factor.\nStep 2: Factor the numerator: x^2 - 4 = (x-2)(x+2)\nStep 3: Simplify: (x^2 - 4)/(x - 2) = (x-2)(x+2)/(x-2) = x+2 (for x ≠ 2)\nStep 4: Take the limit: lim(x→2) (x+2) = 2+2 = 4",
+    "topic": "calculus",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "Solve the system: 2x + 3y = 7, x - y = 1",
+    "solution": "Step 1: From the second equation, x = y + 1\nStep 2: Substitute into the first equation: 2(y + 1) + 3y = 7\nStep 3: Expand: 2y + 2 + 3y = 7\nStep 4: Combine like terms: 5y + 2 = 7\nStep 5: Solve for y: 5y = 5, so y = 1\nStep 6: Find x: x = y + 1 = 1 + 1 = 2\nStep 7: Solution is (2, 1)",
+    "topic": "algebra",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "What is the surface area of a sphere with radius r?",
+    "solution": "The surface area of a sphere with radius r is 4πr².\nThis can be derived by integrating over the surface of the sphere using spherical coordinates, or by considering the sphere as the limit of polyhedra with increasing numbers of faces.",
+    "topic": "geometry",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "Find the eigenvalues of the matrix [[2, 1], [1, 2]]",
+    "solution": "Step 1: Set up the characteristic equation: det(A - λI) = 0\nStep 2: Calculate: det([[2-λ, 1], [1, 2-λ]]) = (2-λ)² - 1²\nStep 3: Expand: (2-λ)² - 1 = 4 - 4λ + λ² - 1 = λ² - 4λ + 3\nStep 4: Factor: λ² - 4λ + 3 = (λ - 3)(λ - 1)\nStep 5: Solve: λ = 3 or λ = 1\nThe eigenvalues are 3 and 1.",
+    "topic": "linear_algebra",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "What is the probability of getting exactly 3 heads in 5 coin flips?",
+    "solution": "Step 1: This is a binomial probability problem: P(X = k) = C(n,k) × p^k × (1-p)^(n-k)\nStep 2: Where n = 5, k = 3, p = 0.5\nStep 3: Calculate C(5,3) = 5!/(3!×2!) = 10\nStep 4: Calculate: P(X = 3) = 10 × (0.5)³ × (0.5)² = 10 × 0.125 × 0.25 = 0.3125\nStep 5: Convert to fraction: 0.3125 = 5/16",
+    "topic": "statistics",
+    "difficulty": "intermediate"
+  }
+]
